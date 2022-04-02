@@ -24,7 +24,7 @@ class CoindeskFragment : Fragment(R.layout.coindesk_fragment) {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         viewBinding = CoindeskFragmentBinding.inflate(inflater)
         return viewBinding.root
     }

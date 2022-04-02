@@ -11,7 +11,9 @@ import java.io.IOException
 
 class CoindeskViewModel constructor(app: Application) : AndroidViewModel(app) {
 
-    private val TAG = "BitcoinViewModel"
+    companion object {
+        private const val TAG = "BitcoinViewModel"
+    }
 
     private val repository: CoindeskRepository = CoindeskRepository()
 
